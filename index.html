@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shop Details</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+    <div class="container">
+        <h1>Shop Details</h1>
+        <div class="category-list"></div>
+        <div class="shop-list"></div>
+        <div class="shop-details">
+            <img id="shop-image" src="" alt="Shop Image">
+            <h2 id="shop-name"></h2>
+            <p id="shop-address"></p>
+            <p>Size: <span id="shop-size"></span></p>
+            <p>Potential: <span id="shop-potential"></span></p>
+            <p>Credit Rating: <span id="shop-credit-rating"></span></p>
+            <p>Estimated Monthly Store Revenue: <span id="shop-revenue"></span></p>
+            <p>Predominant SEC in Neighborhood: <span id="shop-sec"></span></p>
+            <div class="chart-container">
+                <canvas id="nearby-stores-chart"></canvas>
+            </div>
+            <div class="chart-container">
+                <canvas id="daily-customers-chart"></canvas>
+            </div>
+            <div class="chart-container">
+                <canvas id="income-distribution-chart"></canvas>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

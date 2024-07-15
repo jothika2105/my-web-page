@@ -1,0 +1,79 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 80%;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    text-align: center;
+}
+
+.category-list {
+    margin: 20px 0;
+}
+
+.category-list label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.shop-list a {
+    display: block;
+    margin: 10px 0;
+    padding: 10px;
+    text-decoration: none;
+    color: #fff;
+    background-color: #007bff;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.shop-list a:hover {
+    background-color: #0056b3;
+}
+
+.shop-details {
+    display: none;
+    margin-top: 20px;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: left; /* Adjusted to left-align text */
+}
+
+#shop-image {
+    max-width: 50%; /* Ensure image doesn't exceed container width */
+    height: 50%; /* Maintain aspect ratio */
+    border-radius: 20px;
+    margin: 0 auto 20px auto;
+    display: block;
+}
+
+.chart-container {
+    position: relative;
+    height: 300px;
+    width: 100%;
+    margin-top: 20px;
+}
+
+@media (min-width: 768px) {
+    .chart-container {
+        height: 300px;
+        width: 45%;
+        display: inline-block;
+    }
+}
