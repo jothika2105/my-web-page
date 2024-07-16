@@ -7,9 +7,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 "address": "3rd Street, Vasuki Nagar, Kodungaiyur, Chennai, Tamil Nadu - 600118",
                 "size": "500 sq ft",
                 "potential": "Medium",
-                "creditRating": "A",
                 "monthlyRevenue": "Rs. 50,000",
-                "sec": "SEC C1",
                 "nearbyStores": [
                     { "x": 0.1, "y": 0.2 },
                     { "x": 0.2, "y": 0.3 }
@@ -23,9 +21,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 "address": "2nd Avenue, Anna Nagar, Chennai, Tamil Nadu - 600040",
                 "size": "600 sq ft",
                 "potential": "High",
-                "creditRating": "B",
                 "monthlyRevenue": "Rs. 60,000",
-                "sec": "SEC B2",
                 "nearbyStores": [
                     { "x": 0.3, "y": 0.4 },
                     { "x": 0.4, "y": 0.5 }
@@ -39,9 +35,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 "address": "1st Main Road, T. Nagar, Chennai, Tamil Nadu - 600017",
                 "size": "700 sq ft",
                 "potential": "Low",
-                "creditRating": "C",
                 "monthlyRevenue": "Rs. 70,000",
-                "sec": "SEC C3",
                 "nearbyStores": [
                     { "x": 0.5, "y": 0.6 },
                     { "x": 0.6, "y": 0.7 }
@@ -55,9 +49,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 "address": "5th Avenue, Shanti Nagar, Chennai, Tamil Nadu - 600054",
                 "size": "800 sq ft",
                 "potential": "Very High",
-                "creditRating": "A+",
                 "monthlyRevenue": "Rs. 80,000",
-                "sec": "SEC A1",
                 "nearbyStores": [
                     { "x": 0.7, "y": 0.8 },
                     { "x": 0.8, "y": 0.9 }
@@ -73,9 +65,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 "address": "Address 1",
                 "size": "600 sq ft",
                 "potential": "High",
-                "creditRating": "B",
                 "monthlyRevenue": "Rs. 60,000",
-                "sec": "SEC B2",
                 "nearbyStores": [
                     { "x": 0.3, "y": 0.4 },
                     { "x": 0.4, "y": 0.5 }
@@ -89,9 +79,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 "address": "Address 2",
                 "size": "700 sq ft",
                 "potential": "Medium",
-                "creditRating": "A",
                 "monthlyRevenue": "Rs. 50,000",
-                "sec": "SEC C1",
                 "nearbyStores": [
                     { "x": 0.1, "y": 0.2 },
                     { "x": 0.2, "y": 0.3 }
